@@ -1,12 +1,33 @@
-	*{
+	* {
 		box-sizing: border-box;
 	}
 
-	html{
+	html {
 		font-size: 62.5%;
 	}
 
 	/* Khôi phục lại cỡ chữ mặc định theo rem */
-	body{
+	body {
 		font-size: 1.6rem;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	/* common */
+	a {
+		text-decoration: none;
+	}
+	.main-content{
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* header */
+	.header .body{
+		display: flex;
+	}
+	.nav ul {
+		display: flex;
+	}
+	.nav{
+		margin-left: auto;
 	}
